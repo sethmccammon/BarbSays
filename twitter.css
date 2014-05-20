@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Istok+Web|Oxygen:300,700,400|Varela+Round|Chivo|Telex);
+
+html {
+  color: #0000FF !important;
+}
+
+@media (max-width: 1400px) {
+  html {
+    width: 100%; 
+  } 
+}
+
+@media (min-width: 1399px) {
+  html {
+    width: 100%; 
+  } 
+}
+
+
+.twitter-timeline twitter-timeline-rendered { 
+  width: 1400px; 
+}
+.root.timeline.twitter-timeline {
+  background-color: #cccccc; 
+}
+
+.root.timeline.twitter-timeline p, .root.timeline.twitter-timeline a, .root.timeline.twitter-timeline ol, .root.timeline.twitter-timeline ul, .root.timeline.twitter-timeline li {
+  font-family: calibri, "Oxygen", "Ubuntu", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 110%;
+}
+
+.root.twitter-timeline .tweet {
+  padding: 1px 1px;
+  border-bottom: 0px solid white; 
+}
+
+.root.twitter-timeline a, .root.twitter-timeline a:visited {
+  text-decoration: underline; }
+
+.root.twitter-timeline .u-url, .root.twitter-timeline .expand, .root.twitter-timeline .hashtag, .root.twitter-timeline .profile {
+  text-decoration: none; 
+  color: #cccccc;
+  font-size: 1px;
+}
+  
+.root.twitter-timeline .u-url:hover, .root.twitter-timeline .expand:hover, .root.twitter-timeline .hashtag:hover,  .root.twitter-timeline .profile:hover {
+  text-decoration: underline;
+  color: white;
+  font-size: 1px;
+}
+
+.u-photo,
+.full-name,
+.inline-media {
+  display: none; }
+

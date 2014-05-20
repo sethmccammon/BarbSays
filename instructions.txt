@@ -1,0 +1,12 @@
+shell:startup
+-shortcut to movCursor
+-Shortcut to Chrome
+
+Chrome
+Set Target chrome->properties
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --kiosk --incognito file:///C:/Users/Barbara/Desktop/twitter.html
+
+
+Wifi Key
+blessedRageForOrder
